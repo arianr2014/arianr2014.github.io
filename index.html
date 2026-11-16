@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,14 @@
   <title>Arián Reyes Arrunátegui | Full Stack Engineer & AI Architect</title>
   
   <!-- SEO & Meta Tags -->
-  <meta name="description" content="Senior Full Stack Engineer y Team Lead con más de 10 años de experiencia en .NET 8, React, TypeScript, APIs de Google Gemini y OpenAI, AWS y Clean Architecture.">
+  <meta name="description" content="Senior Full Stack Engineer & Technical Team Lead with 10+ years of experience in .NET 8, React, TypeScript, Google Gemini API, OpenAI API, AWS, and Clean Architecture.">
   <meta name="keywords" content="Arian Reyes, Arián Reyes Arrunátegui, Full Stack Engineer, AI Engineer, .NET 8, React, TypeScript, Google Gemini, OpenAI, Clean Architecture, AWS, C#, Tech Lead, Lima Peru">
   <meta name="author" content="Arián Reyes Arrunátegui">
   
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Arián Reyes Arrunátegui | Full Stack Engineer & AI Architect">
-  <meta property="og:description" content="Senior Full Stack Engineer & Technical Team Lead. AI-Powered Products, Backend Architecture (.NET 8) y Frontend Moderno (React, TypeScript).">
+  <meta property="og:description" content="Senior Full Stack Engineer & Technical Team Lead. AI-Powered Products, Backend Architecture (.NET 8), and Modern Frontend (React, TypeScript).">
   <meta property="og:url" content="https://arianr2014.github.io/">
   <meta property="og:image" content="https://arianr2014.github.io/img/arianreyes.jpg">
   
@@ -44,26 +44,32 @@
       </a>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">Acerca de</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#projects">Proyectos & IA</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#education">Educación</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects & AI</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#education" data-i18n="nav.education">Education</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
       <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-switcher" aria-label="Language Selector">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+
         <a href="https://linkedin.com/in/arianreyesarrunategui/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
           <i class="fa-brands fa-linkedin"></i>
           <span>LinkedIn</span>
         </a>
         <a href="#contact" class="btn btn-primary btn-sm">
           <i class="fa-solid fa-paper-plane"></i>
-          <span>Contactar</span>
+          <span data-i18n="nav.contact_btn">Contact</span>
         </a>
       </div>
 
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menú">
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
@@ -76,57 +82,57 @@
         <div class="hero-content">
           <div class="status-badge">
             <span class="status-dot"></span>
-            <span>Disponible para Proyectos de Alto Impacto & Consultoría</span>
+            <span data-i18n="hero.status">Available for High-Impact Projects & Technical Advisory</span>
           </div>
 
           <h1 class="hero-title">
-            Hola, soy <span class="gradient-text">Arián Reyes</span>
+            <span data-i18n="hero.greeting">Hi, I'm</span> <span class="gradient-text">Arián Reyes</span>
           </h1>
 
           <div class="hero-subtitle">
             <span>Full Stack Engineer</span>
             <span>•</span>
-            <span class="gradient-ai-text">AI-Powered Products</span>
+            <span class="gradient-ai-text" data-i18n="hero.role_ai">AI-Powered Products</span>
             <span>•</span>
             <span>Backend Architecture</span>
           </div>
 
-          <p class="hero-lead">
-            Senior Full Stack Engineer y Technical Team Lead con más de <strong>10 años de trayectoria</strong> diseñando, construyendo y optimizando plataformas empresariales, microservicios y aplicaciones web de misión crítica. Experiencia directa integrando <strong>Inteligencia Artificial Generativa (Google Gemini API y OpenAI API)</strong> en productos SaaS en producción, aplicando <strong>Clean Architecture, .NET 8, React, TypeScript y AWS</strong>.
+          <p class="hero-lead" data-i18n-html="hero.lead">
+            Senior Full Stack Engineer and technical team lead with <strong>10+ years of experience</strong> designing, building, and improving web applications, enterprise platforms, and backend services. Hands-on experience integrating generative AI into user-facing products through <strong>Google Gemini and OpenAI APIs</strong>, applying <strong>Clean Architecture, .NET 8, React, TypeScript, and AWS</strong>.
           </p>
 
           <div class="hero-cta">
             <a href="#projects" class="btn btn-primary">
               <i class="fa-solid fa-bolt"></i>
-              <span>Ver Proyectos & IA</span>
+              <span data-i18n="hero.cta_projects">View Projects & AI</span>
             </a>
             <a href="https://linkedin.com/in/arianreyesarrunategui/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
               <i class="fa-brands fa-linkedin"></i>
-              <span>Conectar en LinkedIn</span>
+              <span data-i18n="hero.cta_linkedin">Connect on LinkedIn</span>
             </a>
             <a href="#contact" class="btn btn-secondary">
               <i class="fa-solid fa-envelope"></i>
-              <span>Datos de Contacto</span>
+              <span data-i18n="hero.cta_contact">Contact Details</span>
             </a>
           </div>
 
           <!-- Impact Metrics -->
           <div class="hero-metrics">
             <div class="metric-item">
-              <span class="metric-number gradient-text">10+</span>
-              <span class="metric-label">Años de experiencia profesional</span>
+              <span class="metric-number gradient-text" data-i18n="metrics.m1_num">10+</span>
+              <span class="metric-label" data-i18n="metrics.m1_label">Years of Enterprise Experience</span>
             </div>
             <div class="metric-item">
-              <span class="metric-number gradient-text">-90%</span>
-              <span class="metric-label">Latencia en consultas de reportes (LINQ / EF)</span>
+              <span class="metric-number gradient-text" data-i18n="metrics.m2_num">-90%</span>
+              <span class="metric-label" data-i18n="metrics.m2_label">Attendance Report Latency (LINQ & EF)</span>
             </div>
             <div class="metric-item">
-              <span class="metric-number gradient-text">-90%</span>
-              <span class="metric-label">Reducción de incidentes ERP con fixes de raíz</span>
+              <span class="metric-number gradient-text" data-i18n="metrics.m3_num">-90%</span>
+              <span class="metric-label" data-i18n="metrics.m3_label">ERP Incidents Reduced (Root-Cause Fixes)</span>
             </div>
             <div class="metric-item">
-              <span class="metric-number gradient-ai-text">Gemini & OpenAI</span>
-              <span class="metric-label">Integración de LLMs en productos SaaS</span>
+              <span class="metric-number gradient-ai-text" data-i18n="metrics.m4_num">Gemini & OpenAI</span>
+              <span class="metric-label" data-i18n="metrics.m4_label">LLMs Integrated in SaaS Products</span>
             </div>
           </div>
         </div>
@@ -136,7 +142,7 @@
             <img src="./img/arianreyes.jpg" alt="Arián Reyes Arrunátegui" class="hero-photo">
             <div class="photo-floating-badge">
               <i class="fa-solid fa-award" style="color: var(--accent-cyan);"></i>
-              <span>Team Lead & Architect</span>
+              <span data-i18n="hero.badge_lead">Team Lead & Architect</span>
             </div>
           </div>
         </div>
@@ -148,10 +154,10 @@
   <section class="section" id="about">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Professional Profile</span>
-        <h2 class="section-title">Ingeniería Sólida + Innovación con IA</h2>
-        <p class="section-desc">
-          Liderazgo técnico respaldado por una década en desarrollo de sistemas bancarios, mineros y educativos, complementado con la adopción activa de modelos de lenguaje para potenciar productos reales.
+        <span class="section-tag" data-i18n="about.tag">// Professional Profile</span>
+        <h2 class="section-title" data-i18n="about.title">Robust Engineering + AI Innovation</h2>
+        <p class="section-desc" data-i18n="about.desc">
+          Technical leadership backed by over a decade delivering banking, mining, and educational platforms, combined with active adoption of large language models to elevate user products.
         </p>
       </div>
 
@@ -161,10 +167,10 @@
             <div class="skill-icon ai">
               <i class="fa-solid fa-brain"></i>
             </div>
-            <h3 class="skill-card-title">AI & Generative LLMs</h3>
+            <h3 class="skill-card-title" data-i18n="about.ai_title">AI & Generative LLMs</h3>
           </div>
-          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">
-            Diseño e integración de flujos de IA Generativa mediante APIs de <strong>Google Gemini</strong> y <strong>OpenAI</strong>. Optimización de contenidos, generación contextual de respuestas, prompt engineering y arquitectura de productos SaaS potenciados por IA.
+          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;" data-i18n-html="about.ai_desc">
+            Designing and integrating Generative AI workflows with <strong>Google Gemini</strong> and <strong>OpenAI</strong> APIs. AI-assisted content optimization, contextual response generation, prompt engineering, and LLM-powered SaaS architecture.
           </p>
           <div class="skill-tags">
             <span class="skill-pill featured">Google Gemini API</span>
@@ -179,16 +185,16 @@
             <div class="skill-icon backend">
               <i class="fa-solid fa-server"></i>
             </div>
-            <h3 class="skill-card-title">Backend & API Architecture</h3>
+            <h3 class="skill-card-title" data-i18n="about.backend_title">Backend & API Architecture</h3>
           </div>
-          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">
-            Especialista en el ecosistema <strong>.NET (C#, .NET Core, .NET 8)</strong>, diseño de APIs RESTful escalables, microservicios y servicios legacy (WCF/SOAP). Aplicación rigurosa de <strong>Clean Architecture, Domain-Driven Design (DDD), CQRS</strong> y patrones de diseño.
+          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;" data-i18n-html="about.backend_desc">
+            Specialized in the <strong>.NET ecosystem (C#, .NET Core, .NET 8)</strong>, designing scalable RESTful APIs, microservices, and legacy services (WCF/SOAP). Disciplined adoption of <strong>Clean Architecture, DDD, CQRS</strong>, and design patterns.
           </p>
           <div class="skill-tags">
             <span class="skill-pill featured">.NET 8 / C#</span>
             <span class="skill-pill featured">ASP.NET Core Web API</span>
             <span class="skill-pill">Clean Architecture</span>
-            <span class="skill-pill">Microservicios</span>
+            <span class="skill-pill">Microservices</span>
           </div>
         </div>
 
@@ -197,10 +203,10 @@
             <div class="skill-icon">
               <i class="fa-solid fa-layer-group"></i>
             </div>
-            <h3 class="skill-card-title">Frontend Moderno & React</h3>
+            <h3 class="skill-card-title" data-i18n="about.frontend_title">Modern Frontend & React</h3>
           </div>
-          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">
-            Construcción de interfaces de usuario modernas, reactivas y de alto rendimiento utilizando <strong>React, TypeScript, Angular, JavaScript moderno y Bootstrap/Tailwind</strong>. Enfoque centrado en experiencia de usuario fluida y accesibilidad.
+          <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;" data-i18n-html="about.frontend_desc">
+            Crafting responsive, dynamic, and high-performance user interfaces using <strong>React, TypeScript, Angular, Modern JavaScript, and Bootstrap/Tailwind</strong>. Focused on user experience and accessibility.
           </p>
           <div class="skill-tags">
             <span class="skill-pill featured">React</span>
@@ -217,9 +223,9 @@
   <section class="section" id="skills" style="background: rgba(15, 23, 42, 0.4);">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Core Technical Skills</span>
-        <h2 class="section-title">Ecosistema Tecnológico</h2>
-        <p class="section-desc">Tecnologías, herramientas y metodologías dominadas a lo largo de 10+ años de entrega continua de software.</p>
+        <span class="section-tag" data-i18n="skills.tag">// Core Technical Skills</span>
+        <h2 class="section-title" data-i18n="skills.title">Technical Ecosystem</h2>
+        <p class="section-desc" data-i18n="skills.desc">Technologies, frameworks, and methodologies mastered across 10+ years of continuous software delivery.</p>
       </div>
 
       <div class="skills-grid">
@@ -251,7 +257,7 @@
             <span class="skill-pill featured">.NET Core</span>
             <span class="skill-pill">ASP.NET Core</span>
             <span class="skill-pill">RESTful APIs</span>
-            <span class="skill-pill">Microservicios</span>
+            <span class="skill-pill">Microservices</span>
             <span class="skill-pill">WCF & SOAP</span>
             <span class="skill-pill">LINQ & EF Core</span>
           </div>
@@ -334,9 +340,9 @@
   <section class="section" id="projects">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Portfolio & Case Studies</span>
-        <h2 class="section-title">Proyectos Destacados & Productos de IA</h2>
-        <p class="section-desc">Una selección de soluciones SaaS, plataformas corporativas de alta escala y aplicaciones con Inteligencia Artificial.</p>
+        <span class="section-tag" data-i18n="projects.tag">// Portfolio & Case Studies</span>
+        <h2 class="section-title" data-i18n="projects.title">Featured Projects & AI Products</h2>
+        <p class="section-desc" data-i18n="projects.desc">A selection of SaaS solutions, large-scale enterprise platforms, and Artificial Intelligence integrations.</p>
       </div>
 
       <div class="projects-grid">
@@ -344,20 +350,20 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag ai-tag">
-              <i class="fa-solid fa-sparkles"></i> AI SaaS Product
+              <i class="fa-solid fa-sparkles"></i> <span data-i18n="projects.p1_tag">AI SaaS Product</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">crosspostingpro.com</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Cross-Posting Pro</h3>
-            <div class="project-subtitle">AI-Assisted Social Media Publishing Platform</div>
-            <p class="project-desc">
-              Plataforma SaaS que optimiza y automatiza la publicación multicanal en redes sociales integrando Inteligencia Artificial con <strong>Google Gemini API</strong> para enriquecer y sugerir copy publicitario de alto engagement.
+            <h3 class="project-title" data-i18n="projects.p1_title">Cross-Posting Pro</h3>
+            <div class="project-subtitle" data-i18n="projects.p1_subtitle">AI-Assisted Social Media Publishing Platform</div>
+            <p class="project-desc" data-i18n-html="projects.p1_desc">
+              SaaS platform that optimizes and automates multi-channel social media publishing, integrating Artificial Intelligence via <strong>Google Gemini API</strong> to enhance and suggest high-engagement copy.
             </p>
             <ul class="project-highlights">
-              <li>Integración de Google Gemini API para optimización automática de textos y sugerencias contextuales.</li>
-              <li>Workflows asistidos por IA para generar textos alternativos, variaciones de copy y hashtags inteligentes.</li>
-              <li>Arquitectura desacoplada y frontend reactivo orientado a creadores de contenido y empresas.</li>
+              <li data-i18n="projects.p1_h1">Integrated Google Gemini API to provide AI-powered text optimization and contextual suggestions.</li>
+              <li data-i18n="projects.p1_h2">Built AI-assisted workflows that help users improve copy, alternative text, and hashtags.</li>
+              <li data-i18n="projects.p1_h3">Decoupled architecture and reactive frontend designed for content creators and businesses.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill featured">Google Gemini API</span>
@@ -369,7 +375,7 @@
             <div class="project-actions">
               <a href="https://crosspostingpro.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>Visitar crosspostingpro.com</span>
+                <span data-i18n="projects.p1_btn">Visit crosspostingpro.com</span>
               </a>
             </div>
           </div>
@@ -379,20 +385,20 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag ai-tag">
-              <i class="fa-solid fa-brain"></i> AI Prototype
+              <i class="fa-solid fa-brain"></i> <span data-i18n="projects.p2_tag">AI Prototype</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">LLM Contextual Engine</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">AI-Powered English Translator</h3>
-            <div class="project-subtitle">Prototipo de Asistencia Lingüística Contextual con LLMs</div>
-            <p class="project-desc">
-              Prototipo conversacional que aprovecha modelos de lenguaje de gran tamaño (Google Gemini) para traducir expresiones idiomáticas y formular respuestas contextuales a preguntas complejas en inglés.
+            <h3 class="project-title" data-i18n="projects.p2_title">AI-Powered English Translator</h3>
+            <div class="project-subtitle" data-i18n="projects.p2_subtitle">Contextual Language Assistance Prototype with LLMs</div>
+            <p class="project-desc" data-i18n-html="projects.p2_desc">
+              Conversational prototype leveraging large language models (Google Gemini) to translate idioms and formulate contextual responses to complex queries written in English.
             </p>
             <ul class="project-highlights">
-              <li>Traducción contextual adaptativa considerando tono formal, técnico o coloquial.</li>
-              <li>Generación de sugerencias de respuesta en tiempo real para interacción profesional en inglés.</li>
-              <li>Exploración avanzada de prompt engineering e inferencia rápida con LLMs.</li>
+              <li data-i18n="projects.p2_h1">Adaptive contextual translation considering formal, technical, or conversational tone.</li>
+              <li data-i18n="projects.p2_h2">Real-time response suggestions for fluent professional interaction in English.</li>
+              <li data-i18n="projects.p2_h3">Advanced prompt engineering and low-latency LLM inference.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill featured">Google Gemini API</span>
@@ -403,7 +409,7 @@
             <div class="project-actions">
               <a href="#contact" class="btn btn-secondary btn-sm">
                 <i class="fa-solid fa-info-circle"></i>
-                <span>Solicitar Demo / Detalles</span>
+                <span data-i18n="projects.p2_btn">Request Details / Demo</span>
               </a>
             </div>
           </div>
@@ -413,21 +419,21 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag enterprise-tag">
-              <i class="fa-solid fa-building"></i> Enterprise Core ERP
+              <i class="fa-solid fa-building"></i> <span data-i18n="projects.p3_tag">Enterprise Core ERP</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">VAP Perú / Minera Colquisiri</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Sistema ERP Minero & Corporativo</h3>
-            <div class="project-subtitle">Liderazgo de Desarrollo, Arquitectura y Optimización</div>
-            <p class="project-desc">
-              Liderazgo del equipo de desarrollo a cargo de la arquitectura, módulos críticos y evolución continua del ERP corporativo de Minera Colquisiri S.A.
+            <h3 class="project-title" data-i18n="projects.p3_title">Mining & Corporate ERP Platform</h3>
+            <div class="project-subtitle" data-i18n="projects.p3_subtitle">Technical Direction, Architecture & Optimization</div>
+            <p class="project-desc" data-i18n-html="projects.p3_desc">
+              Led the engineering team responsible for the architecture, mission-critical modules, and continuous evolution of the corporate ERP platform at Minera Colquisiri S.A.
             </p>
             <ul class="project-highlights">
-              <li><strong>-90% de tiempo en reportes de asistencia:</strong> Optimización exhaustiva de queries LINQ y Entity Framework.</li>
-              <li><strong>-90% de incidentes recurrentes:</strong> Análisis de causa raíz y soluciones de software definitivas.</li>
-              <li><strong>Facturación y Guías Electrónicas:</strong> Digitalización al 100% de documentos, eliminando papel y papelería.</li>
-              <li>Pruebas de carga y UI automatizadas con Apache JMeter y Selenium.</li>
+              <li data-i18n-html="projects.p3_h1"><strong>-90% report response times:</strong> Query and application-level optimization using LINQ and Entity Framework.</li>
+              <li data-i18n-html="projects.p3_h2"><strong>-90% recurring ERP incidents:</strong> Root-cause identification and permanent software fixes.</li>
+              <li data-i18n-html="projects.p3_h3"><strong>Electronic Invoicing & Delivery Guides:</strong> Digitized document access, eliminating paper costs.</li>
+              <li data-i18n="projects.p3_h4">Automated performance and UI testing with Apache JMeter and Selenium.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill featured">React</span>
@@ -439,7 +445,7 @@
             <div class="project-actions">
               <a href="https://applima.colquisiri.com.pe/erp" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>Acceso ERP Corporativo</span>
+                <span data-i18n="projects.p3_btn">Corporate ERP Link</span>
               </a>
             </div>
           </div>
@@ -449,20 +455,20 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag enterprise-tag">
-              <i class="fa-solid fa-network-wired"></i> B2B Portal
+              <i class="fa-solid fa-network-wired"></i> <span data-i18n="projects.p4_tag">B2B Portal</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">.NET 8 & Clean Arch</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Extranet de Proveedores & Contratistas</h3>
-            <div class="project-subtitle">Portal B2B de Gestión de Compras y Licitaciones</div>
-            <p class="project-desc">
-              Plataforma transaccional para proveedores y contratistas de minería, gestionando homologaciones, órdenes de compra, cotizaciones y estados de facturación en tiempo real.
+            <h3 class="project-title" data-i18n="projects.p4_title">Supplier & Contractor Extranet</h3>
+            <div class="project-subtitle" data-i18n="projects.p4_subtitle">B2B Procurement & Tender Management Portal</div>
+            <p class="project-desc" data-i18n-html="projects.p4_desc">
+              Mission-critical portal for mining contractors and suppliers, managing certifications, purchase orders, bids, and billing status in real time.
             </p>
             <ul class="project-highlights">
-              <li>Desarrollado en .NET 8 con Clean Architecture, separación de capas y seguridad reforzada.</li>
-              <li>Integración de servicios web y validaciones normativas empresariales.</li>
-              <li>Diseño UI responsivo y amigable para usuarios externos.</li>
+              <li data-i18n="projects.p4_h1">Developed in .NET 8 with Clean Architecture, strict layer separation, and enhanced security.</li>
+              <li data-i18n="projects.p4_h2">Seamless enterprise web service integrations and regulatory compliance checks.</li>
+              <li data-i18n="projects.p4_h3">Responsive, user-friendly UI designed for hundreds of external partner companies.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill featured">.NET 8</span>
@@ -473,7 +479,7 @@
             <div class="project-actions">
               <a href="https://extranet.colquisiri.com.pe/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>Visitar Extranet</span>
+                <span data-i18n="projects.p4_btn">Visit Extranet</span>
               </a>
             </div>
           </div>
@@ -483,21 +489,21 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag">
-              <i class="fa-solid fa-graduation-cap"></i> High Concurrency
+              <i class="fa-solid fa-graduation-cap"></i> <span data-i18n="projects.p5_tag">High Concurrency</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">Innova Schools</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Portal de Pre-Matrícula & Admisiones</h3>
-            <div class="project-subtitle">Sistema Nacional de Gestión Educativa</div>
-            <p class="project-desc">
-              Plataforma de admisiones para la cadena de colegios más grande del Perú, procesando miles de solicitudes simultáneas en periodos de matrícula nacional.
+            <h3 class="project-title" data-i18n="projects.p5_title">Pre-Registration & Admissions Portal</h3>
+            <div class="project-subtitle" data-i18n="projects.p5_subtitle">Nationwide Educational Admissions System</div>
+            <p class="project-desc" data-i18n-html="projects.p5_desc">
+              Admissions platform for Peru's largest private school network, handling high concurrency during peak nationwide enrollment periods.
             </p>
             <ul class="project-highlights">
-              <li>Reducción del 90% en incidencias de frontend y aumento significativo en usabilidad.</li>
-              <li>Reducción del 60% en incidentes en el sistema central de Data Management.</li>
-              <li>Optimización en la migración de datos y generación masiva de órdenes de venta para NetSuite ERP.</li>
-              <li>Integración de pasarela de pago en línea con Interbank.</li>
+              <li data-i18n="projects.p5_h1">Improved pre-registration system, reducing frontend bugs by 90% and boosting usability.</li>
+              <li data-i18n="projects.p5_h2">Reduced recurring incidents in the nationwide Data Management platform by 60%.</li>
+              <li data-i18n="projects.p5_h3">Optimized student data migration and mass sales-order generation for NetSuite ERP.</li>
+              <li data-i18n="projects.p5_h4">Integrated online payment gateway with Interbank and HR recruitment enhancements.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill">ASP.NET MVC</span>
@@ -509,7 +515,7 @@
             <div class="project-actions">
               <a href="https://admision.innovaschools.edu.pe/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>Portal Innova Schools</span>
+                <span data-i18n="projects.p5_btn">Innova Schools Portal</span>
               </a>
             </div>
           </div>
@@ -519,20 +525,20 @@
         <div class="project-card">
           <div class="project-header-bar">
             <span class="project-type-tag">
-              <i class="fa-solid fa-landmark"></i> Banking & Finance
+              <i class="fa-solid fa-landmark"></i> <span data-i18n="projects.p6_tag">Banking & Finance</span>
             </span>
             <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">Software Enterprise Services</span>
           </div>
           <div class="project-body">
-            <h3 class="project-title">Sistemas Empresariales Scotiabank</h3>
-            <div class="project-subtitle">ScotiaFriends, Acuerdos SCI & Alineamiento de Asesores</div>
-            <p class="project-desc">
-              Desarrollo, optimización y soporte de aplicaciones financieras para Scotiabank, CrediScotia y proyectos regionales con equipos internacionales (Perú, Chile, México, Canadá, Costa Rica, El Salvador).
+            <h3 class="project-title" data-i18n="projects.p6_title">Scotiabank Enterprise Banking Systems</h3>
+            <div class="project-subtitle" data-i18n="projects.p6_subtitle">ScotiaFriends, SCI Agreements & Counselor Alignment</div>
+            <p class="project-desc" data-i18n-html="projects.p6_desc">
+              Developed, maintained, and optimized financial enterprise platforms for Scotiabank, CrediScotia, and regional projects involving teams in Peru, Chile, Mexico, Canada, Costa Rica, and El Salvador.
             </p>
             <ul class="project-highlights">
-              <li>Liderazgo en la entrega y despliegue del sistema <strong>ScotiaFriends</strong> para gestión de referidos.</li>
-              <li>Refactorización de procesos pesados, pipelines de reportes con SSIS/SSRS y WCF.</li>
-              <li>Colaboración activa en estimaciones técnicas y definición de requerimientos con stakeholders.</li>
+              <li data-i18n="projects.p6_h1">Led technical delivery of the ScotiaFriends customer referral system.</li>
+              <li data-i18n="projects.p6_h2">Refactored high-load batch workflows, SSIS/SSRS reporting pipelines, and WCF services.</li>
+              <li data-i18n="projects.p6_h3">Collaborated actively with stakeholders on requirements, estimates, and technical roadmaps.</li>
             </ul>
             <div class="project-tech-stack">
               <span class="skill-pill">C#</span>
@@ -544,7 +550,7 @@
             <div class="project-actions">
               <a href="#experience" class="btn btn-secondary btn-sm">
                 <i class="fa-solid fa-briefcase"></i>
-                <span>Ver Trayectoria</span>
+                <span data-i18n="projects.p6_btn">View Career Track</span>
               </a>
             </div>
           </div>
@@ -557,9 +563,9 @@
   <section class="section" id="experience" style="background: rgba(15, 23, 42, 0.4);">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Career Track</span>
-        <h2 class="section-title">Experiencia Profesional</h2>
-        <p class="section-desc">Trayectoria demostrable liderando equipos y construyendo soluciones de software de alto impacto.</p>
+        <span class="section-tag" data-i18n="exp.tag">// Career Track</span>
+        <h2 class="section-title" data-i18n="exp.title">Professional Experience</h2>
+        <p class="section-desc" data-i18n="exp.desc">Proven track record leading engineering teams and delivering high-impact software solutions.</p>
       </div>
 
       <div class="timeline">
@@ -569,18 +575,18 @@
           <div class="timeline-card">
             <div class="timeline-header">
               <div>
-                <h3 class="timeline-role">Senior Full Stack Developer & Team Lead</h3>
-                <div class="timeline-company">VAP Perú — Plataforma ERP Corporativo</div>
+                <h3 class="timeline-role" data-i18n="exp.vap_role">Senior Full Stack Developer & Team Lead</h3>
+                <div class="timeline-company" data-i18n="exp.vap_company">VAP Perú — Corporate ERP Platform</div>
               </div>
-              <span class="timeline-period">Julio 2018 – Presente</span>
+              <span class="timeline-period" data-i18n="exp.vap_period">July 2018 – Present</span>
             </div>
             <ul class="timeline-list">
-              <li><strong>Liderazgo de equipo:</strong> Dirección técnica, arquitectura, entregas continuas y mejora de procesos de ingeniería para el ERP corporativo.</li>
-              <li><strong>Frontend y Backend moderno:</strong> Diseño y desarrollo de módulos en React junto con servicios backend e integraciones REST con .NET y Web APIs.</li>
-              <li><strong>Optimización de rendimiento (-90%):</strong> Reducción drástica del tiempo de respuesta en reportes de asistencia mediante optimización de queries a nivel de aplicación con LINQ y Entity Framework.</li>
-              <li><strong>Estabilidad del sistema (-90% incidencias):</strong> Identificación de causas raíz e implementación de soluciones definitivas para el ERP.</li>
-              <li><strong>Facturación y Guías Electrónicas:</strong> Implementación de facturación electrónica y guías de remisión digitalizadas, eliminando costos de impresión y papelería.</li>
-              <li><strong>Arquitectura y QA:</strong> Evaluación de patrones (Clean Architecture, DDD), diseño arquitectural y pruebas de rendimiento con Apache JMeter y Selenium.</li>
+              <li data-i18n-html="exp.vap_b1"><strong>Team Leadership:</strong> Contributed technical direction, architecture, delivery, and continuous improvement for the corporate ERP.</li>
+              <li data-i18n-html="exp.vap_b2"><strong>Modern Frontend & Backend:</strong> Designed and delivered ERP modules using React, alongside backend services and integrations built with .NET and Web APIs.</li>
+              <li data-i18n-html="exp.vap_b3"><strong>Performance Optimization (-90%):</strong> Reduced attendance-report response times by approximately 90% through query and application-level optimization using LINQ and Entity Framework.</li>
+              <li data-i18n-html="exp.vap_b4"><strong>Incident Reduction (-90%):</strong> Reduced recurring ERP incidents by approximately 90% by identifying root causes and implementing permanent solutions.</li>
+              <li data-i18n-html="exp.vap_b5"><strong>Electronic Invoicing:</strong> Implemented electronic invoicing and delivery guides, digitizing document access and eliminating printing and stationery costs.</li>
+              <li data-i18n-html="exp.vap_b6"><strong>Architecture & QA:</strong> Designed architecture for new modules, evaluated design patterns (Clean Architecture, DDD), and performed testing with Apache JMeter and Selenium.</li>
             </ul>
             <div class="timeline-tech-stack">
               <span class="skill-pill featured">React</span>
@@ -603,16 +609,16 @@
           <div class="timeline-card">
             <div class="timeline-header">
               <div>
-                <h3 class="timeline-role">Senior .NET / Full Stack Developer</h3>
-                <div class="timeline-company">Innova Schools</div>
+                <h3 class="timeline-role" data-i18n="exp.innova_role">Senior .NET / Full Stack Developer</h3>
+                <div class="timeline-company" data-i18n="exp.innova_company">Innova Schools</div>
               </div>
-              <span class="timeline-period">Noviembre 2016 – Junio 2018</span>
+              <span class="timeline-period" data-i18n="exp.innova_period">November 2016 – June 2018</span>
             </div>
             <ul class="timeline-list">
-              <li><strong>Optimización de admisiones:</strong> Mejora integral del sistema de pre-matrícula, reduciendo incidencias de frontend en un 90% y elevando usabilidad y rendimiento.</li>
-              <li><strong>Gestión de incidencias (-60%):</strong> Reducción recurrente en la atención de incidentes en la plataforma de Data Management nacional.</li>
-              <li><strong>Integración con NetSuite ERP:</strong> Optimización de flujos de migración masiva de estudiantes y generación automatizada de órdenes de venta.</li>
-              <li><strong>Pagos y RRHH:</strong> Integración de pasarela de pago online con Interbank y digitalización del proceso de selección de personal.</li>
+              <li data-i18n-html="exp.innova_b1"><strong>Admissions Optimization:</strong> Improved pre-registration system, reducing frontend issues by 90% and increasing application performance and usability.</li>
+              <li data-i18n-html="exp.innova_b2"><strong>Incident Reduction (-60%):</strong> Reduced recurring incident handling in the Data Management system by approximately 60%.</li>
+              <li data-i18n-html="exp.innova_b3"><strong>NetSuite ERP Integration:</strong> Optimized student data migration and mass sales-order generation processes for NetSuite ERP.</li>
+              <li data-i18n-html="exp.innova_b4"><strong>Payments & HR:</strong> Contributed to the Interbank online-payment integration and HR recruitment-process improvements.</li>
             </ul>
             <div class="timeline-tech-stack">
               <span class="skill-pill">C#</span>
@@ -632,15 +638,15 @@
           <div class="timeline-card">
             <div class="timeline-header">
               <div>
-                <h3 class="timeline-role">Senior Analyst / Senior Developer</h3>
-                <div class="timeline-company">Software Enterprise Services (SES) — Sector Financiero</div>
+                <h3 class="timeline-role" data-i18n="exp.ses_role">Senior Analyst / Senior Developer</h3>
+                <div class="timeline-company" data-i18n="exp.ses_company">Software Enterprise Services (SES) — Banking Sector</div>
               </div>
-              <span class="timeline-period">Junio 2011 – Julio 2016</span>
+              <span class="timeline-period" data-i18n="exp.ses_period">June 2011 – July 2016</span>
             </div>
             <ul class="timeline-list">
-              <li><strong>Aplicaciones bancarias:</strong> Desarrollo, mantenimiento y soporte especializado para Scotiabank y CrediScotia (Counselor Alignment, Convenios SCI, Referidos CrediScotia y ScotiaFriends).</li>
-              <li><strong>Entrega de ScotiaFriends:</strong> Liderazgo técnico del sistema integral para el programa de referidos de Scotiabank, coordinando estimaciones y especificaciones.</li>
-              <li><strong>Proyectos regionales:</strong> Componentes de reportería de alta exigencia para equipos distribuidos en Perú, Chile, México, Canadá, Costa Rica y El Salvador.</li>
+              <li data-i18n-html="exp.ses_b1"><strong>Banking Platforms:</strong> Developed, maintained, and optimized enterprise applications for Scotiabank (Counselor Alignment, SCI Agreements, CrediScotia Referrals, and ScotiaFriends).</li>
+              <li data-i18n-html="exp.ses_b2"><strong>ScotiaFriends Delivery:</strong> Led delivery of the ScotiaFriends system and collaborated with stakeholders on requirements, estimates, and technical documentation.</li>
+              <li data-i18n-html="exp.ses_b3"><strong>Regional Delivery:</strong> Developed reporting components for a regional project involving teams in Peru, Chile, Mexico, Canada, Costa Rica, and El Salvador.</li>
             </ul>
             <div class="timeline-tech-stack">
               <span class="skill-pill">C#</span>
@@ -659,14 +665,14 @@
           <div class="timeline-card">
             <div class="timeline-header">
               <div>
-                <h3 class="timeline-role">Senior Developer</h3>
-                <div class="timeline-company">ALGOLIQ — Buenos Aires, Argentina</div>
+                <h3 class="timeline-role" data-i18n="exp.algoliq_role">Senior Developer</h3>
+                <div class="timeline-company" data-i18n="exp.algoliq_company">ALGOLIQ — Buenos Aires, Argentina</div>
               </div>
-              <span class="timeline-period">Abril 2009 – Marzo 2010</span>
+              <span class="timeline-period" data-i18n="exp.algoliq_period">April 2009 – March 2010</span>
             </div>
             <ul class="timeline-list">
-              <li><strong>Refactorización de capa de datos:</strong> Optimización de flujos de procesamiento pesado reduciendo sustancialmente los tiempos de respuesta.</li>
-              <li><strong>Migración SQL a Oracle:</strong> Migración masiva de procedimientos almacenados y optimización de colas con Microsoft Message Queuing (MSMQ), multithreading e inserciones masivas (bulk inserts).</li>
+              <li data-i18n-html="exp.algoliq_b1"><strong>Data Access Refactoring:</strong> Refactored the data-access layer and optimized heavy processing workflows to improve application response times.</li>
+              <li data-i18n-html="exp.algoliq_b2"><strong>SQL to Oracle Migration:</strong> Migrated SQL stored procedures to Oracle and improved processing queues using Microsoft Message Queuing (MSMQ), multithreading, and bulk inserts.</li>
             </ul>
             <div class="timeline-tech-stack">
               <span class="skill-pill">.NET C#</span>
@@ -685,9 +691,9 @@
   <section class="section" id="education">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Background & Credentials</span>
-        <h2 class="section-title">Educación, Certificaciones & Idiomas</h2>
-        <p class="section-desc">Formación continua en ingeniería de software, arquitectura en la nube y metodologías ágiles.</p>
+        <span class="section-tag" data-i18n="edu.tag">// Background & Credentials</span>
+        <h2 class="section-title" data-i18n="edu.title">Education, Certifications & Languages</h2>
+        <p class="section-desc" data-i18n="edu.desc">Lifelong learning in software engineering, cloud architecture, and agile delivery.</p>
       </div>
 
       <div class="education-grid">
@@ -695,21 +701,21 @@
         <div class="edu-card">
           <h3 class="edu-card-title">
             <i class="fa-solid fa-graduation-cap"></i>
-            <span>Educación Superior</span>
+            <span data-i18n="edu.higher_title">Higher Education</span>
           </h3>
           <div class="edu-item">
-            <div class="edu-degree">Ingeniería de Sistemas</div>
-            <div class="edu-school">Universidad Tecnológica del Perú (UTP) — Lima, Perú</div>
+            <div class="edu-degree" data-i18n="edu.degree1">Systems Engineering</div>
+            <div class="edu-school" data-i18n="edu.school1">Universidad Tecnológica del Perú (UTP) — Lima, Peru</div>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">Computación e Informática</div>
-            <div class="edu-school">CIBERTEC (2004 – 2021)</div>
+            <div class="edu-degree" data-i18n="edu.degree2">Degree in Computing and Informatics</div>
+            <div class="edu-school" data-i18n="edu.school2">CIBERTEC (2004 – 2021)</div>
           </div>
           <div class="edu-item" style="margin-top: 14px;">
-            <div class="edu-degree" style="color: var(--accent-cyan);">Idiomas</div>
-            <div class="edu-school" style="color: var(--text-main); font-weight: 500; margin-top: 4px;">
-              • <strong>Español:</strong> Nativo<br>
-              • <strong>Inglés:</strong> B2 (Upper-Intermediate)
+            <div class="edu-degree" style="color: var(--accent-cyan);" data-i18n="edu.langs_title">Languages</div>
+            <div class="edu-school" style="color: var(--text-main); font-weight: 500; margin-top: 4px;" data-i18n-html="edu.langs_val">
+              • <strong>Spanish:</strong> Native<br>
+              • <strong>English:</strong> B2 (Upper-Intermediate)
             </div>
           </div>
         </div>
@@ -718,27 +724,27 @@
         <div class="edu-card">
           <h3 class="edu-card-title">
             <i class="fa-solid fa-certificate"></i>
-            <span>Certificaciones & Cursos Clave</span>
+            <span data-i18n="edu.certs_title">Key Certifications & Training</span>
           </h3>
           <div class="edu-item">
-            <div class="edu-degree">Scrum Foundation Professional Certificate (SFPC)</div>
-            <div class="edu-school">CertiProf (2020)</div>
+            <div class="edu-degree" data-i18n="edu.cert1">Scrum Foundation Professional Certificate (SFPC)</div>
+            <div class="edu-school" data-i18n="edu.cert1_sub">CertiProf (2020)</div>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">Architecting on Amazon Web Services (AWS)</div>
-            <div class="edu-school">AWS (2018) | AWS Essentials (2017)</div>
+            <div class="edu-degree" data-i18n="edu.cert2">Architecting on Amazon Web Services (AWS)</div>
+            <div class="edu-school" data-i18n="edu.cert2_sub">AWS (2018) | AWS Essentials (2017)</div>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">Gestión de Proyectos con PMBOK 5th Edition</div>
-            <div class="edu-school">Project Management (2017)</div>
+            <div class="edu-degree" data-i18n="edu.cert3">Project Management with PMBOK 5th Edition</div>
+            <div class="edu-school" data-i18n="edu.cert3_sub">Project Management (2017)</div>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">Business Intelligence con SQL Server</div>
-            <div class="edu-school">SSIS / SSRS (2017)</div>
+            <div class="edu-degree" data-i18n="edu.cert4">Business Intelligence with SQL Server</div>
+            <div class="edu-school" data-i18n="edu.cert4_sub">SSIS / SSRS (2017)</div>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">Microsoft Certified Application Developer (MCAD)</div>
-            <div class="edu-school">Microsoft (2006)</div>
+            <div class="edu-degree" data-i18n="edu.cert5">Microsoft Certified Application Developer (MCAD)</div>
+            <div class="edu-school" data-i18n="edu.cert5_sub">Microsoft (2006)</div>
           </div>
         </div>
       </div>
@@ -749,15 +755,15 @@
   <section class="section" id="contact" style="background: rgba(15, 23, 42, 0.4);">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">// Get In Touch</span>
-        <h2 class="section-title">Hablemos de tu Próximo Proyecto</h2>
-        <p class="section-desc">¿Buscas potenciar tu plataforma con IA, modernizar tu backend o sumar liderazgo técnico a tu equipo?</p>
+        <span class="section-tag" data-i18n="contact.tag">// Get In Touch</span>
+        <h2 class="section-title" data-i18n="contact.title">Let's Build Something Exceptional</h2>
+        <p class="section-desc" data-i18n="contact.desc">Looking to integrate AI into your product, modernize your backend, or add technical leadership to your engineering team?</p>
       </div>
 
       <div class="contact-card">
         <div style="text-align: center; max-width: 600px; margin: 0 auto;">
-          <p style="color: var(--text-muted); font-size: 1.05rem;">
-            Estoy disponible para roles de ingeniería senior, liderazgo técnico, consultorías de arquitectura e integración de modelos de lenguaje en plataformas de negocio.
+          <p style="color: var(--text-muted); font-size: 1.05rem;" data-i18n="contact.msg">
+            Available for senior engineering roles, technical leadership, architectural consulting, and LLM integrations in production software.
           </p>
         </div>
 
@@ -766,7 +772,7 @@
             <div class="contact-icon">
               <i class="fa-solid fa-envelope"></i>
             </div>
-            <div class="contact-label">Correo Electrónico</div>
+            <div class="contact-label" data-i18n="contact.email_label">Email Address</div>
             <div class="contact-val">arianr2014@gmail.com</div>
           </a>
 
@@ -774,7 +780,7 @@
             <div class="contact-icon" style="background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald);">
               <i class="fa-brands fa-whatsapp"></i>
             </div>
-            <div class="contact-label">Teléfono / WhatsApp</div>
+            <div class="contact-label" data-i18n="contact.phone_label">Phone / WhatsApp</div>
             <div class="contact-val">+51 922 396 990</div>
           </a>
 
@@ -782,7 +788,7 @@
             <div class="contact-icon" style="background: rgba(129, 140, 248, 0.15); color: var(--accent-indigo);">
               <i class="fa-brands fa-linkedin-in"></i>
             </div>
-            <div class="contact-label">LinkedIn Oficial</div>
+            <div class="contact-label" data-i18n="contact.linkedin_label">Official LinkedIn</div>
             <div class="contact-val">/in/arianreyesarrunategui</div>
           </a>
         </div>
@@ -790,7 +796,7 @@
         <div style="text-align: center; margin-top: 36px;">
           <a href="https://linkedin.com/in/arianreyesarrunategui/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 12px 28px; font-size: 1rem;">
             <i class="fa-brands fa-linkedin"></i>
-            <span>Ver Perfil Completo en LinkedIn</span>
+            <span data-i18n="contact.btn_linkedin">View Full Profile on LinkedIn</span>
           </a>
         </div>
       </div>
@@ -816,10 +822,10 @@
       </div>
 
       <div class="footer-copy">
-        <p>© 2026 <strong>Arián Reyes Arrunátegui</strong>. Todos los derechos reservados.</p>
+        <p data-i18n-html="footer.rights">© 2026 <strong>Arián Reyes Arrunátegui</strong>. All rights reserved.</p>
         <p style="margin-top: 6px; font-size: 0.8rem;">
-          <a href="./privacy-policy.html">Política de Privacidad</a> •
-          <a href="./tiktok-callback.html">OAuth Redirect</a>
+          <a href="./privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a> •
+          <a href="./tiktok-callback.html" data-i18n="footer.oauth">OAuth Redirect</a>
         </p>
       </div>
     </div>
@@ -845,5 +851,8 @@
       }
     });
   </script>
+
+  <!-- Internationalization (i18n) Engine -->
+  <script src="./js/i18n.js"></script>
 </body>
 </html>
