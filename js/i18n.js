@@ -151,6 +151,29 @@ const translations = {
     "exp.algoliq_b1": "<strong>Data Access Refactoring:</strong> Refactored the data-access layer and optimized heavy processing workflows to improve application response times.",
     "exp.algoliq_b2": "<strong>SQL to Oracle Migration:</strong> Migrated SQL stored procedures to Oracle and improved processing queues using Microsoft Message Queuing (MSMQ), multithreading, and bulk inserts.",
 
+    "exp.xstrata_role": "Senior Systems Analyst & Tech Lead",
+    "exp.xstrata_company": "Xstrata Copper — Las Bambas Project | Mining, Oil & Gas",
+    "exp.xstrata_period": "June 2007 – December 2008",
+    "exp.xstrata_b1": "<strong>HSEC Enterprise System:</strong> Led functional analysis and technical delivery for the Health, Safety, Environment & Community (HSEC) platform, modernizing legacy modules from Visual FoxPro to .NET.",
+    "exp.xstrata_b2": "<strong>Service-Oriented Architecture:</strong> Architected the backend business and data-access layer using .NET Web Services integrated with Microsoft SQL Server 2005.",
+    "exp.xstrata_b3": "<strong>Analytics & Reporting Portal:</strong> Designed and implemented an interactive analytics and statistics portal utilizing ChartFX for business visualization, DevExpress dynamic OLAP cubes, and DlhSoft Gantt Chart for project activity tracking.",
+    "exp.xstrata_b4": "<strong>Database Engineering:</strong> Modeled relational data structures and optimized complex stored procedures, ensuring data integrity across mining operations.",
+
+    "exp.axle_role": "Analyst / Programmer",
+    "exp.axle_company": "Axle Financial Solutions | Banking & Financial Services",
+    "exp.axle_period": "November 2006 – May 2007",
+    "exp.axle_b1": "<strong>Core Remittance Platform:</strong> Maintained and implemented mission-critical features for <em>Xpress Remittance</em>, the enterprise international money transfer engine.",
+    "exp.axle_b2": "<strong>Corporate Intranet Development:</strong> Designed and deployed intranet modules using ASP.NET AJAX, improving internal communication and operational processing speed.",
+    "exp.axle_b3": "<strong>Database & Integration:</strong> Developed optimized database procedures and transactional queries on Microsoft SQL Server 2000 under .NET Framework.",
+
+    "exp.silsa_role": "Analyst / Programmer & Project Lead",
+    "exp.silsa_company": "SILSA S.A. | Enterprise Corporate Services",
+    "exp.silsa_period": "November 2005 – October 2006",
+    "exp.silsa_b1": "<strong>Commercial & Contract Management System:</strong> Architected and built core transactional modules for contract registration, addendums, bank guarantee letters (cartas fianza), purchase orders, and commercial proposal generation.",
+    "exp.silsa_b2": "<strong>Multi-Tier Development:</strong> Developed desktop (Windows C#) and web (ASP.NET) solutions integrated with Microsoft SQL Server 2000.",
+    "exp.silsa_b3": "<strong>Data Migration & Architecture:</strong> Coordinated and executed historical data migration from Visual FoxPro to SQL Server, creating reusable shared software components.",
+    "exp.silsa_b4": "<strong>Project Coordination:</strong> Managed project timelines with Microsoft Project, distributed development tasks across the team, and reported project milestones directly to executive management.",
+
     // Education & Certs
     "edu.tag": "// Background & Credentials",
     "edu.title": "Education, Certifications & Languages",
@@ -337,6 +360,29 @@ const translations = {
     "exp.algoliq_period": "Abril 2009 – Marzo 2010",
     "exp.algoliq_b1": "<strong>Refactorización de capa de datos:</strong> Optimización de flujos de procesamiento pesado reduciendo sustancialmente los tiempos de respuesta.",
     "exp.algoliq_b2": "<strong>Migración SQL a Oracle:</strong> Migración masiva de procedimientos almacenados y optimización de colas con Microsoft Message Queuing (MSMQ), multithreading e inserciones masivas (bulk inserts).",
+
+    "exp.xstrata_role": "Analista Programador Senior / Liderazgo de Proyecto",
+    "exp.xstrata_company": "Xstrata Copper — Proyecto Las Bambas | Minería, Petróleo y Gas",
+    "exp.xstrata_period": "Junio 2007 – Diciembre 2008",
+    "exp.xstrata_b1": "<strong>Sistema HSEC Corporativo:</strong> Liderazgo técnico y análisis funcional para la plataforma HSEC (Salud, Seguridad, Medio Ambiente y Comunidad), modernizando módulos de Visual FoxPro hacia .NET.",
+    "exp.xstrata_b2": "<strong>Arquitectura Orientada a Servicios:</strong> Diseño y desarrollo de la capa modelo y lógica de negocio mediante .NET Web Services y Microsoft SQL Server 2005.",
+    "exp.xstrata_b3": "<strong>Portal Estadístico & Business Intelligence:</strong> Construcción de un portal analítico avanzado con ChartFX para visualización de métricas, cubos dinámicos DevExpress para reportería multidimensional y diagramas Gantt interactivos DlhSoft.",
+    "exp.xstrata_b4": "<strong>Ingeniería de Base de Datos:</strong> Modelamiento relacional, creación y optimización de procedimientos almacenados de alta concurrencia.",
+
+    "exp.axle_role": "Analista Programador",
+    "exp.axle_company": "Axle Financial Solutions | Sector Bancario y Financiero",
+    "exp.axle_period": "Noviembre 2006 – Mayo 2007",
+    "exp.axle_b1": "<strong>Plataforma Central de Remesas:</strong> Mantenimiento evolutivo y desarrollo de requerimientos para <em>Xpress Remittance</em>, sistema transaccional de transferencias y giros internacionales.",
+    "exp.axle_b2": "<strong>Intranet Corporativa:</strong> Desarrollo de módulos para la intranet empresarial implementando ASP.NET AJAX para mejorar la agilidad y experiencia operativa.",
+    "exp.axle_b3": "<strong>Base de Datos y Transaccionalidad:</strong> Programación de consultas optimizadas y procedimientos almacenados en Microsoft SQL Server 2000 y plataforma .NET.",
+
+    "exp.silsa_role": "Analista Programador / Responsable de Proyecto",
+    "exp.silsa_company": "SILSA S.A. | Servicios Empresariales Corporativos",
+    "exp.silsa_period": "Noviembre 2005 – Octubre 2006",
+    "exp.silsa_b1": "<strong>Gestión Integral de Contratos y Ventas:</strong> Diseño y desarrollo de módulos clave para administración de contratos, adendas, cartas fianza, órdenes de compra y generación automatizada de propuestas comerciales.",
+    "exp.silsa_b2": "<strong>Desarrollo C# y ASP.NET:</strong> Implementación de soluciones híbridas de escritorio (Windows Forms C#) y web (ASP.NET) sobre base de datos SQL Server 2000.",
+    "exp.silsa_b3": "<strong>Migración de Datos y Componentes:</strong> Coordinación de la migración de datos históricos desde Visual FoxPro hacia SQL Server y construcción de librerías de componentes reutilizables.",
+    "exp.silsa_b4": "<strong>Liderazgo y Reportes a Gerencia:</strong> Planificación y seguimiento del cronograma con Microsoft Project, delegación de módulos al equipo técnico y presentación de avances a la alta dirección.",
 
     // Education & Certs
     "edu.tag": "// Antecedentes & Credenciales",
